@@ -7,15 +7,17 @@ import { useState } from 'react';
 import RichTextDemo from './RichTextDemo';
 import MarkdownDemo from './MarkdownDemo';
 import ParagraphsDemo from './ParagraphsDemo';
+import AtjsonDemo from './AtjsonDemo';
 
 const demoComponents = {
   "richtext": <RichTextDemo />,
   "markdown": <MarkdownDemo />,
-  "paragraphs": <ParagraphsDemo />
+  "paragraphs": <ParagraphsDemo />,
+  "atjson": <AtjsonDemo />
 }
 
 const App = () => {
-  const [demo, setDemo] = useState("paragraphs")
+  const [demo, setDemo] = useState("atjson")
 
   return <div css={css`font-family: "Fira Sans", sans-serif;`}>
           <div css={css`margin-bottom: 20px;`}>

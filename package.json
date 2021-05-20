@@ -19,6 +19,8 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
+    "@atjson/document": "^0.24.3",
+    "@atjson/renderer-hir": "^0.22.11",
     "@emotion/react": "^11.1.1",
     "automerge": "https://github.com/automerge/automerge.git#cursors-v2",
     "is-hotkey": "^0.2.0",
